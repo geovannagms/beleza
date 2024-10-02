@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#EDADC3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/beautyy"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:layout_width="202dp"
+        android:layout_height="43dp"
+        android:text="Essence Beauty"
+        android:textAlignment="center"
+        android:textColor="#FE99A0"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/menu_beauty"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="302dp"
+        android:layout_height="177dp"
+        app:srcCompat="@drawable/beleza"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="301dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#FFC4CB"
+        android:text="Confira abaixo os passos transcritos para lhe ajudar com sua auto-maquiagem!"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:iconTint="#EFABC2"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Lavar e hidratar a pele"
+        android:textColor="#AF5F65"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="356dp"
+        android:layout_height="36dp"
+        android:text="•Lave o rosto com um limpador suave e aplique um hidratante adequado ao seu tipo de pele."
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="364dp"
+        android:layout_height="42dp"
+        android:text="•Use um primer para suavizar a textura da pele e aumentar a durabilidade da maquiagem"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Base"
+        android:textColor="#AF5F65"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="335dp"
+        android:layout_height="46dp"
+        android:text="•Escolha uma base que corresponda ao seu tom de pele e tipo."
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:text="•Aplique a base no centro do rosto e espalhe para fora, usando um pincel, esponja ou os dedos."
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•Misture bem para garantir uma cobertura uniforme."
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Corretivo"
+        android:textColor="#AF5F65"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="385dp"
+        android:layout_height="40dp"
+        android:text="•Aplique o corretivo nas áreas com manchas, olheiras ou imperfeições, usando um pincel ou os dedos."
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="592dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="326dp"
+        android:layout_height="40dp"
+        android:text="•Dê leves batidinhas para misturar o corretivo com a base, garantindo uma transição suave."
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.Pó translucido"
+        android:textColor="#AF5F65"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="362dp"
+        android:layout_height="32dp"
+        android:text="•Use um pincel grande e fofo para aplicar o pó facial, focando nas áreas propensas a brilho."
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="689dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

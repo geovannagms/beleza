@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Essence Beauty"
+        android:textColor="#FFC4C8"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C8C8C8"
+        android:text="CRIAR"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC4C8"
+        android:text="ENTRAR"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:fontFamily="sans-serif-black"
+        android:text="Seja bem-vindo(a) ao"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:fontFamily="sans-serif-black"
+        android:text="ou entre com"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/espelho_de_mao_1"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="56dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/facebook__1__1"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/twitter_1"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/instagram_1"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
